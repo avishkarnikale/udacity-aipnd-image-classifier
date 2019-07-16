@@ -1,5 +1,5 @@
 import model_wrapper as mw
-from get_input_args import get_training_input_args
+from get_training_input_args import get_training_input_args
 from img_classifier_utils import train,test
 from time_elapsed import TimeElapsed
 

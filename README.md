@@ -48,8 +48,9 @@ which has been created using the `train.py`
 - gpu enabling as given as --gpu and gpu disabling is --no-gpu , default is gpu enabled
 
 ### Supporting files 
-- get_input_args - Inspired from the first project in the nanodegree, has 2 methods , 1 for training args and 1 for prediction args
+- get_training_input_args - Inspired from the first project in the nanodegree, has 1 method for training args 
+- get_prediction_input_args - Inspired from the first project in the nanodegree, has 1 method for prediction args
 - img_classifier_utils - This helper utils has methods for training, testing, loading checkpoint, processing and predicting any image input
 - model_wrapper - This is a wrapper class for pytorch models and helps in decoupling the creation and lifecycle 
-- time_elaped - For printing out execution time 
+- time_elapsed - For printing out execution time 
 

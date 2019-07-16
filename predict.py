@@ -1,4 +1,4 @@
-from get_input_args import get_prediction_input_args
+from get_prediction_input_args import get_prediction_input_args
 from img_classifier_utils import loadModel,get_layers_as_comma_sep_string,predict
 
 # Start Training 
